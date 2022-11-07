@@ -1,8 +1,10 @@
 package com.mustache.bbs.domain.dto;
 
 import lombok.Getter;
+import lombok.ToString;
 
 @Getter
+@ToString
 public class ArticleDto {
     private Long id;
     private String title;
